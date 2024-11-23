@@ -1,0 +1,147 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f5c518;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header .search-bar input {
+  padding: 5px;
+  border-radius: 4px;
+  border: none;
+}
+
+/* Hero Section */
+.hero {
+  background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 20px;
+}
+
+/* Movie Reviews Section */
+.reviews {
+  padding: 50px 20px;
+}
+
+.reviews h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.movie-card {
+  background-color: #333;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.movie-card h3 {
+  margin: 10px 0;
+}
+
+.movie-card button {
+  background-color: #f5c518;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.movie-card button:hover {
+  background-color: #e1b313;
+}
+
+/* Cast Section */
+.cast {
+  padding: 50px 20px;
+}
+
+.cast-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.actor-card {
+  background-color: #333;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.actor-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.actor-card h3 {
+  margin: 10px 0;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+footer .social-media a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
